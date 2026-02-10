@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run start-windows:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(cmd /c \"taskkill /PID 856 /F\")",
+      "Bash(cmd /c \"taskkill /PID 856 /F 2>&1\")"
+    ]
+  }
+}

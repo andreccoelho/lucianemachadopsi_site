@@ -1,28 +1,25 @@
-import { onAuthStateChanged } from "firebase/auth"
-import Base from "./Base"
-import { auth } from "../config/Firebase";
-import { useEffect } from "react";
+import Header from "../components/Header/Header";
+import Hero from "../components/Hero/Hero";
+import Sobre from "../components/Sobre/Sobre";
+import Gestalt from "../components/Gestalt/Gestalt";
+import Parental from "../components/Parental/Parental";
+import Formacoes from "../components/Formacoes/Formacoes";
+import Contato from "../components/Contato/Contato";
+import Footer from "../components/Footer/Footer";
 
-const Home = () => {
+const Home = () => (
+  <>
+    <Header />
+    <main>
+      <Hero />
+      <Sobre />
+      <Gestalt />
+      <Parental />
+      <Formacoes />
+      <Contato />
+    </main>
+    <Footer />
+  </>
+);
 
-  /* useEffect(()=> {
-    onAuthStateChanged(auth, (user)=> {
-      if (user) {
-        window.sessionStorage.setItem("accessToken", user.accessToken);
-      } else {
-        window.sessionStorage.removeItem("accessToken");
-      }
-    })
-  },[]) */
-  
-
-  return (
-    <Base>
-      <h1>
-     Aplicação React Base
-      </h1>
-    </Base>
-  )
-}
-
-export default Home
+export default Home;
