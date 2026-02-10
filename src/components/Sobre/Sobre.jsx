@@ -90,8 +90,7 @@ const Sobre = () => (
         <Text>
           Psicóloga clínica, Gestalt-terapeuta e Especialista em Inteligência Parental.
           Trabalho com psicoterapia individual para crianças e adultos e psicoterapia
-          de casais e famílias. Atendo de forma online e presencial no Recreio dos
-          Bandeirantes e Barra da Tijuca.
+          de casais e famílias.
         </Text>
       </TextContent>
       <ImageWrapper>

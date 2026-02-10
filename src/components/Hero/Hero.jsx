@@ -119,10 +119,7 @@ const Hero = () => (
         <h1>Luciane Machado</h1>
         <h2>Psicóloga Clínica &bull; Gestalt-terapeuta</h2>
         <p>
-          Psicóloga clínica, Gestalt-terapeuta e Especialista em Inteligência Parental.
-          Trabalho com psicoterapia individual para crianças e adultos e psicoterapia
-          de casais e famílias. Atendo de forma online e presencial no Recreio dos
-          Bandeirantes e Barra da Tijuca.
+            Atendimento online e presencial no Recreio dos Bandeirantes e Barra da Tijuca.
         </p>
         <Btn href="#contato">Agende sua consulta</Btn>
       </TextContent>
