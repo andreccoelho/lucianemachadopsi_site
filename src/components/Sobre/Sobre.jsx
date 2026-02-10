@@ -95,7 +95,7 @@ const Sobre = () => (
         </Text>
       </TextContent>
       <ImageWrapper>
-        <img src="imagens/img2.JPG" alt="Luciane Machado - Psicóloga" />
+        <img src="imagens/img4.JPG" alt="Luciane Machado - Psicóloga" />
       </ImageWrapper>
     </Container>
   </Section>

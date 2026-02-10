@@ -90,8 +90,7 @@ const Gestalt = () => (
         de se expressar de maneira sensível e autêntica.
       </Text>
       <ImageRow>
-        <img src="imagens/img3.JPG" alt="Luciane Machado - Cartão de visita" style={{ objectPosition: 'center 30%' }} />
-        <img src="imagens/img4.JPG" alt="Luciane Machado - Gestalt-terapia" style={{ objectPosition: 'center 25%' }} />
+        <img src="imagens/img3.JPG" alt="Luciane Machado - Cartão de visita" />
       </ImageRow>
     </Container>
   </Section>
