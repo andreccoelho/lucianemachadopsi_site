@@ -40,7 +40,6 @@ const Text = styled.p`
   color: var(--texto-claro);
   line-height: 2;
   margin-top: 2rem;
-  font-style: italic;
 
   @media (max-width: 768px) {
     font-size: 1rem;
